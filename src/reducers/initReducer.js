@@ -1,4 +1,4 @@
-import { INIT_APP } from '../actions/actions';
+import { INIT_APP } from '../actions/actionTypes';
 
 const INIT_STATE = {
   message: ''

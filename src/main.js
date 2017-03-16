@@ -8,6 +8,7 @@ import { store, history } from './store/configureStore';
 
 // From App
 import './styles/styles.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import rootReducer from './reducers';
 import routes from './routes';
 

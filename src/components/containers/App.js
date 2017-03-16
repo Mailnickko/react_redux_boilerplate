@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import { Button } from 'react-bootstrap';
 
 import * as actions from '../../actions/actions';
 
@@ -21,7 +22,11 @@ class App extends Component {
       <div>
         <h1>Hello World</h1>
 
-        <button onClick={this.handleInitClick}>Click to check dispatch</button>
+        <Button
+          bsStyle="success"
+          onClick={this.handleInitClick}>
+          Testing here again?
+        </Button>
 
         <h3>{ this.props.init }</h3>
 
